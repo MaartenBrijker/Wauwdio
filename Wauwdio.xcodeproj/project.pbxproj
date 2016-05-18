@@ -14,6 +14,10 @@
 		A575BF341CECBF3600E7E1DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A575BF321CECBF3600E7E1DE /* LaunchScreen.storyboard */; };
 		A575BF3F1CECBF3600E7E1DE /* WauwdioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575BF3E1CECBF3600E7E1DE /* WauwdioTests.swift */; };
 		A575BF4A1CECBF3600E7E1DE /* WauwdioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575BF491CECBF3600E7E1DE /* WauwdioUITests.swift */; };
+		A575BF621CECBFAE00E7E1DE /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A575BF5D1CECBF6000E7E1DE /* AudioKit.framework */; };
+		A575BF631CECBFB900E7E1DE /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A575BF5D1CECBF6000E7E1DE /* AudioKit.framework */; };
+		A575BF641CECBFB900E7E1DE /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A575BF5D1CECBF6000E7E1DE /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A575BF6C1CECC89300E7E1DE /* RFX6.WAV in Resources */ = {isa = PBXBuildFile; fileRef = A575BF6B1CECC89300E7E1DE /* RFX6.WAV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +35,49 @@
 			remoteGlobalIDString = A575BF251CECBF3600E7E1DE;
 			remoteInfo = Wauwdio;
 		};
+		A575BF5C1CECBF6000E7E1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A575BF571CECBF6000E7E1DE /* AudioKit For iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C42F35001C057E03000E937C;
+			remoteInfo = AudioKit;
+		};
+		A575BF5E1CECBF6000E7E1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A575BF571CECBF6000E7E1DE /* AudioKit For iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C43792781C0CE2E0001E9160;
+			remoteInfo = AudioKitTests;
+		};
+		A575BF601CECBF9B00E7E1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A575BF571CECBF6000E7E1DE /* AudioKit For iOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C42F34FF1C057E03000E937C;
+			remoteInfo = AudioKit;
+		};
+		A575BF651CECBFB900E7E1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A575BF571CECBF6000E7E1DE /* AudioKit For iOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C42F34FF1C057E03000E937C;
+			remoteInfo = AudioKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A575BF671CECBFB900E7E1DE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A575BF641CECBFB900E7E1DE /* AudioKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A575BF261CECBF3600E7E1DE /* Wauwdio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wauwdio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +93,8 @@
 		A575BF451CECBF3600E7E1DE /* WauwdioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WauwdioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A575BF491CECBF3600E7E1DE /* WauwdioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WauwdioUITests.swift; sourceTree = "<group>"; };
 		A575BF4B1CECBF3600E7E1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A575BF571CECBF6000E7E1DE /* AudioKit For iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "AudioKit For iOS.xcodeproj"; path = "External/AudioKit-master/AudioKit/iOS/AudioKit For iOS.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		A575BF6B1CECC89300E7E1DE /* RFX6.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RFX6.WAV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +102,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A575BF631CECBFB900E7E1DE /* AudioKit.framework in Frameworks */,
+				A575BF621CECBFAE00E7E1DE /* AudioKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +153,8 @@
 				A575BF301CECBF3600E7E1DE /* Assets.xcassets */,
 				A575BF321CECBF3600E7E1DE /* LaunchScreen.storyboard */,
 				A575BF351CECBF3600E7E1DE /* Info.plist */,
+				A575BF6B1CECC89300E7E1DE /* RFX6.WAV */,
+				A575BF571CECBF6000E7E1DE /* AudioKit For iOS.xcodeproj */,
 			);
 			path = Wauwdio;
 			sourceTree = "<group>";
@@ -125,6 +177,15 @@
 			path = WauwdioUITests;
 			sourceTree = "<group>";
 		};
+		A575BF581CECBF6000E7E1DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A575BF5D1CECBF6000E7E1DE /* AudioKit.framework */,
+				A575BF5F1CECBF6000E7E1DE /* AudioKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +196,13 @@
 				A575BF221CECBF3600E7E1DE /* Sources */,
 				A575BF231CECBF3600E7E1DE /* Frameworks */,
 				A575BF241CECBF3600E7E1DE /* Resources */,
+				A575BF671CECBFB900E7E1DE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A575BF611CECBF9B00E7E1DE /* PBXTargetDependency */,
+				A575BF661CECBFB900E7E1DE /* PBXTargetDependency */,
 			);
 			name = Wauwdio;
 			productName = Wauwdio;
@@ -218,6 +282,12 @@
 			mainGroup = A575BF1D1CECBF3600E7E1DE;
 			productRefGroup = A575BF271CECBF3600E7E1DE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A575BF581CECBF6000E7E1DE /* Products */;
+					ProjectRef = A575BF571CECBF6000E7E1DE /* AudioKit For iOS.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A575BF251CECBF3600E7E1DE /* Wauwdio */,
@@ -227,6 +297,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		A575BF5D1CECBF6000E7E1DE /* AudioKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AudioKit.framework;
+			remoteRef = A575BF5C1CECBF6000E7E1DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A575BF5F1CECBF6000E7E1DE /* AudioKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AudioKitTests.xctest;
+			remoteRef = A575BF5E1CECBF6000E7E1DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		A575BF241CECBF3600E7E1DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -234,6 +321,7 @@
 			files = (
 				A575BF341CECBF3600E7E1DE /* LaunchScreen.storyboard in Resources */,
 				A575BF311CECBF3600E7E1DE /* Assets.xcassets in Resources */,
+				A575BF6C1CECC89300E7E1DE /* RFX6.WAV in Resources */,
 				A575BF2F1CECBF3600E7E1DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +380,16 @@
 			isa = PBXTargetDependency;
 			target = A575BF251CECBF3600E7E1DE /* Wauwdio */;
 			targetProxy = A575BF461CECBF3600E7E1DE /* PBXContainerItemProxy */;
+		};
+		A575BF611CECBF9B00E7E1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AudioKit;
+			targetProxy = A575BF601CECBF9B00E7E1DE /* PBXContainerItemProxy */;
+		};
+		A575BF661CECBFB900E7E1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AudioKit;
+			targetProxy = A575BF651CECBFB900E7E1DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -404,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Wauwdio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Maarten-Brijker.Wauwdio";
@@ -415,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Wauwdio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Maarten-Brijker.Wauwdio";
@@ -487,6 +587,7 @@
 				A575BF501CECBF3600E7E1DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A575BF511CECBF3600E7E1DE /* Build configuration list for PBXNativeTarget "WauwdioTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +596,7 @@
 				A575BF531CECBF3600E7E1DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A575BF541CECBF3600E7E1DE /* Build configuration list for PBXNativeTarget "WauwdioUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +605,7 @@
 				A575BF561CECBF3600E7E1DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

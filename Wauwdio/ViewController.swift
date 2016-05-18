@@ -7,19 +7,57 @@
 //
 
 import UIKit
+import AudioKit
 
 class ViewController: UIViewController {
 
+
+    var oscillator = AKOscillator()
+    var player: AKAudioPlayer!
+    var reverb: AKReverb!
+    
+    let file = NSBundle.mainBundle().pathForResource("RFX6", ofType: "WAV")
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        }
+    
+
+    @IBAction func toggleSound(sender: AnyObject) {
+        let filename = "RFX6"
+        let afterdoth = "WAV"
+        playSound(filename, theType: afterdoth)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func reverb(sender: AnyObject) {
+   
+    
+        
     }
+    
 
-
+    
+    func playSound(filename: String, theType: String) {
+        
+        if AudioKit.output == nil {
+            
+            let player = AKAudioPlayer(file!)
+            let reverb = AKReverb(player)
+            let squareWave = AKSquareWaveOscillator()
+            let dryWetMixer = AKDryWetMixer(reverb, squareWave, balance: 0.5)
+            
+            AudioKit.output = dryWetMixer
+            AudioKit.start()
+            
+            if player.isStarted {
+                player.looping = false
+                print("ierer")
+                player.stop()
+            } else {
+                player.looping = true
+                player.play()
+            }
+        }
+    }
 }
-
