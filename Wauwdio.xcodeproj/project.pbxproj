@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A575BF2A1CECBF3600E7E1DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575BF291CECBF3600E7E1DE /* AppDelegate.swift */; };
+		A575BF2C1CECBF3600E7E1DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575BF2B1CECBF3600E7E1DE /* ViewController.swift */; };
+		A575BF2F1CECBF3600E7E1DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A575BF2D1CECBF3600E7E1DE /* Main.storyboard */; };
+		A575BF311CECBF3600E7E1DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A575BF301CECBF3600E7E1DE /* Assets.xcassets */; };
+		A575BF341CECBF3600E7E1DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A575BF321CECBF3600E7E1DE /* LaunchScreen.storyboard */; };
+		A575BF3F1CECBF3600E7E1DE /* WauwdioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575BF3E1CECBF3600E7E1DE /* WauwdioTests.swift */; };
+		A575BF4A1CECBF3600E7E1DE /* WauwdioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575BF491CECBF3600E7E1DE /* WauwdioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A575BF3B1CECBF3600E7E1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A575BF1E1CECBF3600E7E1DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A575BF251CECBF3600E7E1DE;
+			remoteInfo = Wauwdio;
+		};
+		A575BF461CECBF3600E7E1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A575BF1E1CECBF3600E7E1DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A575BF251CECBF3600E7E1DE;
+			remoteInfo = Wauwdio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A575BF261CECBF3600E7E1DE /* Wauwdio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wauwdio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A575BF291CECBF3600E7E1DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A575BF2B1CECBF3600E7E1DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A575BF2E1CECBF3600E7E1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A575BF301CECBF3600E7E1DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A575BF331CECBF3600E7E1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A575BF351CECBF3600E7E1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A575BF3A1CECBF3600E7E1DE /* WauwdioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WauwdioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A575BF3E1CECBF3600E7E1DE /* WauwdioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WauwdioTests.swift; sourceTree = "<group>"; };
+		A575BF401CECBF3600E7E1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A575BF451CECBF3600E7E1DE /* WauwdioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WauwdioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A575BF491CECBF3600E7E1DE /* WauwdioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WauwdioUITests.swift; sourceTree = "<group>"; };
+		A575BF4B1CECBF3600E7E1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A575BF231CECBF3600E7E1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A575BF371CECBF3600E7E1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A575BF421CECBF3600E7E1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A575BF1D1CECBF3600E7E1DE = {
+			isa = PBXGroup;
+			children = (
+				A575BF281CECBF3600E7E1DE /* Wauwdio */,
+				A575BF3D1CECBF3600E7E1DE /* WauwdioTests */,
+				A575BF481CECBF3600E7E1DE /* WauwdioUITests */,
+				A575BF271CECBF3600E7E1DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A575BF271CECBF3600E7E1DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A575BF261CECBF3600E7E1DE /* Wauwdio.app */,
+				A575BF3A1CECBF3600E7E1DE /* WauwdioTests.xctest */,
+				A575BF451CECBF3600E7E1DE /* WauwdioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A575BF281CECBF3600E7E1DE /* Wauwdio */ = {
+			isa = PBXGroup;
+			children = (
+				A575BF291CECBF3600E7E1DE /* AppDelegate.swift */,
+				A575BF2B1CECBF3600E7E1DE /* ViewController.swift */,
+				A575BF2D1CECBF3600E7E1DE /* Main.storyboard */,
+				A575BF301CECBF3600E7E1DE /* Assets.xcassets */,
+				A575BF321CECBF3600E7E1DE /* LaunchScreen.storyboard */,
+				A575BF351CECBF3600E7E1DE /* Info.plist */,
+			);
+			path = Wauwdio;
+			sourceTree = "<group>";
+		};
+		A575BF3D1CECBF3600E7E1DE /* WauwdioTests */ = {
+			isa = PBXGroup;
+			children = (
+				A575BF3E1CECBF3600E7E1DE /* WauwdioTests.swift */,
+				A575BF401CECBF3600E7E1DE /* Info.plist */,
+			);
+			path = WauwdioTests;
+			sourceTree = "<group>";
+		};
+		A575BF481CECBF3600E7E1DE /* WauwdioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A575BF491CECBF3600E7E1DE /* WauwdioUITests.swift */,
+				A575BF4B1CECBF3600E7E1DE /* Info.plist */,
+			);
+			path = WauwdioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A575BF251CECBF3600E7E1DE /* Wauwdio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A575BF4E1CECBF3600E7E1DE /* Build configuration list for PBXNativeTarget "Wauwdio" */;
+			buildPhases = (
+				A575BF221CECBF3600E7E1DE /* Sources */,
+				A575BF231CECBF3600E7E1DE /* Frameworks */,
+				A575BF241CECBF3600E7E1DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wauwdio;
+			productName = Wauwdio;
+			productReference = A575BF261CECBF3600E7E1DE /* Wauwdio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A575BF391CECBF3600E7E1DE /* WauwdioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A575BF511CECBF3600E7E1DE /* Build configuration list for PBXNativeTarget "WauwdioTests" */;
+			buildPhases = (
+				A575BF361CECBF3600E7E1DE /* Sources */,
+				A575BF371CECBF3600E7E1DE /* Frameworks */,
+				A575BF381CECBF3600E7E1DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A575BF3C1CECBF3600E7E1DE /* PBXTargetDependency */,
+			);
+			name = WauwdioTests;
+			productName = WauwdioTests;
+			productReference = A575BF3A1CECBF3600E7E1DE /* WauwdioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A575BF441CECBF3600E7E1DE /* WauwdioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A575BF541CECBF3600E7E1DE /* Build configuration list for PBXNativeTarget "WauwdioUITests" */;
+			buildPhases = (
+				A575BF411CECBF3600E7E1DE /* Sources */,
+				A575BF421CECBF3600E7E1DE /* Frameworks */,
+				A575BF431CECBF3600E7E1DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A575BF471CECBF3600E7E1DE /* PBXTargetDependency */,
+			);
+			name = WauwdioUITests;
+			productName = WauwdioUITests;
+			productReference = A575BF451CECBF3600E7E1DE /* WauwdioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A575BF1E1CECBF3600E7E1DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Maarten_Brijker;
+				TargetAttributes = {
+					A575BF251CECBF3600E7E1DE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = L87TFF7ECW;
+					};
+					A575BF391CECBF3600E7E1DE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = L87TFF7ECW;
+						TestTargetID = A575BF251CECBF3600E7E1DE;
+					};
+					A575BF441CECBF3600E7E1DE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = L87TFF7ECW;
+						TestTargetID = A575BF251CECBF3600E7E1DE;
+					};
+				};
+			};
+			buildConfigurationList = A575BF211CECBF3600E7E1DE /* Build configuration list for PBXProject "Wauwdio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A575BF1D1CECBF3600E7E1DE;
+			productRefGroup = A575BF271CECBF3600E7E1DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A575BF251CECBF3600E7E1DE /* Wauwdio */,
+				A575BF391CECBF3600E7E1DE /* WauwdioTests */,
+				A575BF441CECBF3600E7E1DE /* WauwdioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A575BF241CECBF3600E7E1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A575BF341CECBF3600E7E1DE /* LaunchScreen.storyboard in Resources */,
+				A575BF311CECBF3600E7E1DE /* Assets.xcassets in Resources */,
+				A575BF2F1CECBF3600E7E1DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A575BF381CECBF3600E7E1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A575BF431CECBF3600E7E1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A575BF221CECBF3600E7E1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A575BF2C1CECBF3600E7E1DE /* ViewController.swift in Sources */,
+				A575BF2A1CECBF3600E7E1DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A575BF361CECBF3600E7E1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A575BF3F1CECBF3600E7E1DE /* WauwdioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A575BF411CECBF3600E7E1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A575BF4A1CECBF3600E7E1DE /* WauwdioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A575BF3C1CECBF3600E7E1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A575BF251CECBF3600E7E1DE /* Wauwdio */;
+			targetProxy = A575BF3B1CECBF3600E7E1DE /* PBXContainerItemProxy */;
+		};
+		A575BF471CECBF3600E7E1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A575BF251CECBF3600E7E1DE /* Wauwdio */;
+			targetProxy = A575BF461CECBF3600E7E1DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A575BF2D1CECBF3600E7E1DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A575BF2E1CECBF3600E7E1DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A575BF321CECBF3600E7E1DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A575BF331CECBF3600E7E1DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A575BF4C1CECBF3600E7E1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A575BF4D1CECBF3600E7E1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A575BF4F1CECBF3600E7E1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wauwdio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maarten-Brijker.Wauwdio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A575BF501CECBF3600E7E1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wauwdio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maarten-Brijker.Wauwdio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A575BF521CECBF3600E7E1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WauwdioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maarten-Brijker.WauwdioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wauwdio.app/Wauwdio";
+			};
+			name = Debug;
+		};
+		A575BF531CECBF3600E7E1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WauwdioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maarten-Brijker.WauwdioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wauwdio.app/Wauwdio";
+			};
+			name = Release;
+		};
+		A575BF551CECBF3600E7E1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WauwdioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maarten-Brijker.WauwdioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Wauwdio;
+			};
+			name = Debug;
+		};
+		A575BF561CECBF3600E7E1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WauwdioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maarten-Brijker.WauwdioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Wauwdio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A575BF211CECBF3600E7E1DE /* Build configuration list for PBXProject "Wauwdio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A575BF4C1CECBF3600E7E1DE /* Debug */,
+				A575BF4D1CECBF3600E7E1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A575BF4E1CECBF3600E7E1DE /* Build configuration list for PBXNativeTarget "Wauwdio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A575BF4F1CECBF3600E7E1DE /* Debug */,
+				A575BF501CECBF3600E7E1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A575BF511CECBF3600E7E1DE /* Build configuration list for PBXNativeTarget "WauwdioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A575BF521CECBF3600E7E1DE /* Debug */,
+				A575BF531CECBF3600E7E1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A575BF541CECBF3600E7E1DE /* Build configuration list for PBXNativeTarget "WauwdioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A575BF551CECBF3600E7E1DE /* Debug */,
+				A575BF561CECBF3600E7E1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A575BF1E1CECBF3600E7E1DE /* Project object */;
+}
