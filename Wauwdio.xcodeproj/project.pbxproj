@@ -18,6 +18,7 @@
 		A575BF631CECBFB900E7E1DE /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A575BF5D1CECBF6000E7E1DE /* AudioKit.framework */; };
 		A575BF641CECBFB900E7E1DE /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A575BF5D1CECBF6000E7E1DE /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A575BF6C1CECC89300E7E1DE /* RFX6.WAV in Resources */ = {isa = PBXBuildFile; fileRef = A575BF6B1CECC89300E7E1DE /* RFX6.WAV */; };
+		A59F254A1CECF833009783BE /* akonalien.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A59F25491CECF833009783BE /* akonalien.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		A575BF4B1CECBF3600E7E1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A575BF571CECBF6000E7E1DE /* AudioKit For iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "AudioKit For iOS.xcodeproj"; path = "External/AudioKit-master/AudioKit/iOS/AudioKit For iOS.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		A575BF6B1CECC89300E7E1DE /* RFX6.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RFX6.WAV; sourceTree = "<group>"; };
+		A59F25491CECF833009783BE /* akonalien.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = akonalien.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				A575BF321CECBF3600E7E1DE /* LaunchScreen.storyboard */,
 				A575BF351CECBF3600E7E1DE /* Info.plist */,
 				A575BF6B1CECC89300E7E1DE /* RFX6.WAV */,
+				A59F25491CECF833009783BE /* akonalien.mp3 */,
 				A575BF571CECBF6000E7E1DE /* AudioKit For iOS.xcodeproj */,
 			);
 			path = Wauwdio;
@@ -319,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A59F254A1CECF833009783BE /* akonalien.mp3 in Resources */,
 				A575BF341CECBF3600E7E1DE /* LaunchScreen.storyboard in Resources */,
 				A575BF311CECBF3600E7E1DE /* Assets.xcassets in Resources */,
 				A575BF6C1CECC89300E7E1DE /* RFX6.WAV in Resources */,
